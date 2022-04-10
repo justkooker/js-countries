@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: 6vh;
+  position: sticky;
+  background: linear-gradient(180deg, rgba(136,148,148,1) 0%, rgba(67,65,77,1) 48%, rgba(31,29,36,1) 89%);;
+  justify-content: space-between;
+  justify-items: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.logo {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 0.5em;
+ 
+  width: 4em;
+  height: 4em;
+}
+.logo_link {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin: 0;
+}
+.logo_name {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-transform: capitalize;
+  margin-top: 0.2em;
+  font-size: 1.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  transition: color 1s;
+}
+.logo_name:hover {
+  color: aqua;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin-right: 1em;
+}
+.menu_item {
+  display: flex;
+  text-transform: capitalize;
+  margin-right: 1em;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.menu_link {
+  text-decoration: none;
+  color: #fff;
+  align-items: center;
+}
+.menu_link:hover {
+  color: aqua;
+}
+.form {
+  display: flex;
+  align-items: center;
+}
+.search-bar {
+  display: flex;
+  border: none;
+  width: 15em;
+  height: 2em;
+  border-radius: 0.2em;
+  padding: 0;
+  margin-right: 0.3em;
+}
+.form-button {
+  border: none;
+  background-image: url("../images/serch.png");
+  border-radius: 0.2em;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+}

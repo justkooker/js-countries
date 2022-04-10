@@ -1,18 +1,18 @@
 {
-  "name": "js-countries",
+  "name": "my-first-project",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://justkooker.github.io/js-countries",
+  "homepage": "https://justkooker.github.io/my-first-project",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /js-countries/",
+    "build": "parcel build src/*.html --public-url /my-first-project",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justkooker/js-countries.git"
+    "url": "git+https://github.com/justkooker/my-first-project.git"
   },
   "keywords": [],
   "author": "Ivan",

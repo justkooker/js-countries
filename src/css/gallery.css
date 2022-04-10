@@ -1,0 +1,49 @@
+body {
+  background-image: url("../images/main-film-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 94vh;
+}
+.gallery-container {
+  max-width: 1700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.inactive {
+  display: none;
+}
+.gallery {
+  width: auto;
+  display: flex;
+
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  margin: 20px;
+}
+.card_image {
+  width: 240px;
+  height: 360px;
+  object-fit: cover;
+}
+.card_image:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+.card_description {
+  width: 240px;
+  color: aliceblue;
+}
+.card_title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px 0 10px 0;
+}
+.card_year {
+  margin: 5px 0 5px 0;
+}

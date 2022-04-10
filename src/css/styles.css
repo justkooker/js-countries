@@ -1,8 +1,4 @@
-@import './noCountry.css';
-@import './countryInfo.css';
-@import './countryList.css';
-@import './input.css';
-@import '../../node_modules/@pnotify/mobile/dist/PNotifyMobile.css';
-body {
-    background: rgb(245, 238, 238);
-}
+@import './header.css';
+@import './gallery.css';
+@import './film.css';
+@import './notification.css'
